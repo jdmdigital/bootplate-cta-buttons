@@ -28,7 +28,7 @@ if(!function_exists('bootplate_add_meta_box')){
 			);
 		}
 	}
-	add_action( 'add_meta_boxes', 'jdm_add_meta_box' );
+	add_action( 'add_meta_boxes', 'bootplate_add_meta_box' );
 }
 
 // Prints the box content.
@@ -59,7 +59,7 @@ if(!function_exists('bootplate_meta_box_callback')){
 		echo '<th scope="row"><label for="ctatxt">Button Left Text:</label></th>';
 		echo '<td><input type="text" id="cta1txt" class="normal-text" name="cta1txt" value="' . esc_attr( $cta1txt ) . '" placeholder="Click Here" style="" /></td>';
 		echo '</tr><tr>';
-		echo '<th scope="row"><label for="ctaurl">Button Left Class(es):  <small><a href="https://github.com/jdmdigital/jdm-cta-buttons" target="_blank" rel="nofollow">{help?}</a></small></label></th>';
+		echo '<th scope="row"><label for="ctaurl">Button Left Class(es):  <small><a href="https://github.com/jdmdigital/bootplate-cta-buttons" target="_blank" rel="nofollow">{help?}</a></small></label></th>';
 		echo '<td><input type="text" id="cta1class" class="normal-text" name="cta1class" value="' . esc_attr( $cta1class ) . '" placeholder="btn-default" /></td>';
 		echo '</tr><tr>';
 		echo '<th scope="row"><label for="ctaurl">Button Right Link:</label></th>';
@@ -68,7 +68,7 @@ if(!function_exists('bootplate_meta_box_callback')){
 		echo '<th scope="row"><label for="ctatxt">Button Right Text:</label></th>';
 		echo '<td><input type="text" id="cta2txt" class="normal-text" name="cta2txt" value="' . esc_attr( $cta2txt ) . '" placeholder="Click Here" style="" /></td>';
 		echo '</tr><tr>';
-		echo '<th scope="row"><label for="ctaurl">Button Right Class(es):  <small><a href="https://github.com/jdmdigital/jdm-cta-buttons" target="_blank" rel="nofollow">{help?}</a></small></label></th>';
+		echo '<th scope="row"><label for="ctaurl">Button Right Class(es):  <small><a href="https://github.com/jdmdigital/bootplate-cta-buttons" target="_blank" rel="nofollow">{help?}</a></small></label></th>';
 		echo '<td><input type="text" id="cta2class" class="normal-text" name="cta2class" value="' . esc_attr( $cta2class ) . '" placeholder="btn-primary" /></td>';
 		echo '</tr>';
 		echo '</tbody></table>';
@@ -88,7 +88,7 @@ function bootplate_save_meta_box_data( $post_id ) {
 	}
 
 	// Verify that the nonce is valid.
-	if ( ! wp_verify_nonce( $_POST['bootplate_meta_box_nonce'], 'jdm_meta_box' ) ) {
+	if ( ! wp_verify_nonce( $_POST['bootplate_meta_box_nonce'], 'bootplate_meta_box' ) ) {
 		return;
 	}
 
@@ -195,7 +195,7 @@ if(!function_exists('has_cta2')) {
 
 // Returns the HTML CTA link with the parameter class(es)
 if(!function_exists('get_cta')) {
-	function get_cta($ctanum = 1){
+	function get_cta($catnum = 1){
 		global $page, $post; 
 		
 		if($catnum == 2) {
@@ -229,7 +229,7 @@ if(!function_exists('get_cta')) {
 
 // Echos get_cta(), basically
 if(!function_exists('the_cta') && function_exists('get_cta')) {
-	function the_cta($ctanum = 1){		
+	function the_cta($catnum = 1){		
 		echo get_cta($catnum);
 	} // end the_cta()
 }
