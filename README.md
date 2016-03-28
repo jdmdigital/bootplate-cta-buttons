@@ -1,10 +1,5 @@
-# bootplate-cta-buttons
+# Bootplate CTA Buttons
 This simple, unbranded WordPress plugin adds Call-to-Action (CTA) fields to the editor and allows theme developers to display it using simple functions.  More information on [the plugin site](http://bootplate.jdmdigital.co/plugins/cta-buttons/).
-
-# JDM Custom CTA
-This simple, unbranded WordPress plugin adds Call-to-Action (CTA) fields to the editor and allows theme developers to display it using simple functions.  Based on the (overly) [simple plugin](https://github.com/jdmdigital/jdm-custom-cta "JDM Custom CTA") we did a little while ago and pre-integrated into [Bootplate](http://bootplate.jdmdigital.co). 
-
-More information about the origional can be found on [JDM Labs](http://labs.jdmdigital.co/code/jdm-custom-cta/ "JDM Labs").
 
 ![alt tag](http://labs.jdmdigital.co/wp-content/uploads/sites/4/2016/02/cta-banner-big-770x400.png)
 
