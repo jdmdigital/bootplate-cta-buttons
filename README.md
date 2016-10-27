@@ -29,6 +29,9 @@ Oh, that's the default.  If you don't set a value in the CTA Button Text, it'll 
 
 ## Changelog
 
+**0.2**
+* Version Bump (mostly)
+
 **0.1**
 * Initial Release.
 * Forked from [JDM Custom CTA](https://github.com/jdmdigital/jdm-custom-cta "JDM Custom CTA")

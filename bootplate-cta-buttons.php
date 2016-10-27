@@ -4,7 +4,7 @@
  * Plugin Name: Bootplate CTA Buttons
  * Plugin URI: http://bootplate.jdmdigital.co/plugins/call-to-action/
  * Description: There are many cases when theme developers may want the ability to add a call-to-action (or CTA) button to their theme that's easily editable from the WordPress backend. This reusable plugin does just that, and nothing more.
- * Version: 0.1
+ * Version: 0.2
  * Author: JDM Digital
  * Author URI: http://jdmdigital.co
  * License: GPLv2 or later

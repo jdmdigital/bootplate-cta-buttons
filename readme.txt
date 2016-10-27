@@ -2,9 +2,9 @@
 Contributors: jdm-labs
 Donate link: http://jdmdigital.co
 Tags: call to action, cta
-Requires at least: 3.0.1
-Tested up to: 4.4.2
-Stable tag: 0.1
+Requires at least: 4.0
+Tested up to: 4.6.2
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,10 +46,13 @@ Oh, that's the default.  If you don't set a value in the CTA Button Text, it'll 
 
 == Upgrade Notice ==
 
-= 0.1 =
-This version fixes a security related bug.  Please update this immediately.
+= 0.2 =
+Version Bump (mostly)
 
 == Changelog ==
+
+= 0.2 =
+* Version Bump (mostly)
 
 = 0.1 =
 * Initial Release.
